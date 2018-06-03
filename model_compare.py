@@ -75,9 +75,7 @@ if __name__ == "__main__":
                 #init clfs with best parameters get from gridsearch
                 #svm 
                 # to use best parameters
-                #clf_svm = svm.SVC(kernel='rbf',gamma=2**-4,C=2**1,probability=True)
-        clf_svm = LGBMClassifier(num_leaves=20,max_depth=10,learning_rate=0.1,n_estimators=500,objective='regression')
-                
+        clf_svm = svm.SVC(kernel='rbf',gamma=2**-4,C=2**1,probability=True)
                 #Gassian
                 #clf_nb = GaussianNB()
 
