@@ -1,6 +1,6 @@
 '''
 Author: Bingfei Ren 
-Description: This code classifies given apks into Malware/Benign using Majority Voting for SVM ADABoosting RandormForest LightGBM
+Description: This code classifies given apks into Malware/Benign using malware-override Voting for SVM ADABoosting RandormForest LightGBM
 '''
 def warn(*args, **kwargs):
     pass
